@@ -1,6 +1,8 @@
 {
   "name": "my-app",
+  "main": "src/index.ts",
   "scripts": {
+    "start": "bun src/index.ts",
     "dev": "bun run --hot src/index.ts"
   },
   "dependencies": {
